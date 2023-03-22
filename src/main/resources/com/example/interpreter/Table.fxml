@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="root" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.interpreter.Controllers.ControllerTable">
+    <children>
+        <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="500.0" style="-fx-background-color: cef0c9;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+            <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="130.0" layoutY="40.0" text="изученные слова" textAlignment="RIGHT" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="40.0">
+         <font>
+            <Font name="Bookman Old Style" size="24.0" />
+         </font></Label>
+      <VBox layoutY="123.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Button fx:id="btnHome" layoutX="140.0" layoutY="593.0" mnemonicParsing="false" onAction="#btnHomeClicked" style="-fx-background-color: #8fbc8f;" text="на главный экран" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="90.0">
+         <font>
+            <Font name="Bookman Old Style" size="18.0" />
+         </font></Button>
+      <StackPane layoutY="106.0" prefHeight="451.0" prefWidth="500.0" AnchorPane.leftAnchor="0.0">
+               <children>
+            <TableView fx:id="WTable" prefHeight="419.0" prefWidth="500.0">
+              <columns>
+                <TableColumn fx:id="TableRuWord" maxWidth="268.0" prefWidth="251.0" style="-fx-background-color: #8fbc8f;" text="слово" />
+                <TableColumn fx:id="TableEnWord" maxWidth="329.0" prefWidth="248.0" style="-fx-background-color: #6fa86f;" text="перевод" />
+              </columns>
+            </TableView>
+               </children></StackPane>
+            <Button fx:id="btnDelW" layoutX="369.0" layoutY="566.0" mnemonicParsing="false" onAction="#btnDelWClicked" style="-fx-background-color: #8fbc8f;" text="удалить слово" AnchorPane.rightAnchor="15.0">
+               <font>
+                  <Font name="Bookman Old Style" size="14.0" />
+               </font></Button>
+   </children>
+</AnchorPane>
+    </children>
+</VBox>

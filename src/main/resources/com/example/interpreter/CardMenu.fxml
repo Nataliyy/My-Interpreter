@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="root" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.interpreter.Controllers.ControllerCard">
+   <children>
+      <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="650.0" prefWidth="500.0" style="-fx-background-color: cef0c9;" VBox.vgrow="ALWAYS">
+         <children>
+      <Label alignment="CENTER" layoutX="70.0" layoutY="65.0" prefHeight="25.0" prefWidth="281.0" text="игра &quot;карточки&quot;" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="70.0" AnchorPane.topAnchor="65.0">
+         <font>
+            <Font name="Bookman Old Style" size="36.0" />
+         </font></Label>
+      <Button fx:id="btnHome" layoutX="90.0" layoutY="597.0" mnemonicParsing="false" onAction="#btnHomeСlicked" prefHeight="39.0" prefWidth="214.0" style="-fx-background-color: #8fbc8f;" text="на главный экран" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="90.0">
+         <font>
+            <Font name="Bookman Old Style" size="18.0" />
+         </font></Button>
+      <Button fx:id="btnStart" layoutX="100.0" layoutY="387.0" mnemonicParsing="false" onAction="#btnStartClicked" prefHeight="101.0" prefWidth="143.0" style="-fx-background-color: #8fbc8f;" text="начать" AnchorPane.bottomAnchor="213.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="387.0">
+         <font>
+            <Font name="Bookman Old Style" size="24.0" />
+         </font></Button>
+      <Label layoutX="14.0" layoutY="133.0" text="С помощью данной игры Вы сможете повторить " AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="130.0">
+         <font>
+            <Font name="Bookman Old Style" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="160.0" text="ранее изученные слова. На карточке будет по-" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="160.0">
+         <font>
+            <Font name="Bookman Old Style" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="187.0" text="являться слово, и Вам нужно будет его перевести и " AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="190.0">
+         <font>
+            <Font name="Bookman Old Style" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="214.0" text="самостоятельно проверить результат. Нажмите " AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="220.0">
+         <font>
+            <Font name="Bookman Old Style" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="250.0" text="&quot;начать&quot; чтобы запустить игру." AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="250.0">
+         <font>
+            <Font name="Bookman Old Style" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
+   </children>
+</VBox>

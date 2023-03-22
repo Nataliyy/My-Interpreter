@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="root" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.interpreter.Controllers.ControllerTime">
+   <children>
+      <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="650.0" prefWidth="500.0" style="-fx-background-color: cef0c9;" VBox.vgrow="ALWAYS">
+         <children>
+      <Button fx:id="btnHome" layoutX="199.0" layoutY="593.0" mnemonicParsing="false" onAction="#btnHomeClicked" prefHeight="43.0" prefWidth="102.0" style="-fx-background-color: #8fbc8f;" text="назад" AnchorPane.leftAnchor="199.0" AnchorPane.rightAnchor="199.0">
+               <font>
+                  <Font name="Bookman Old Style" size="18.0" />
+               </font></Button>
+      <Label alignment="CENTER" layoutX="30.0" layoutY="39.0" text="Промежутки, через которые " AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0">
+         <font>
+            <Font name="Bookman Old Style" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="40.0" layoutY="151.0" text="20 минут" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="150.0">
+         <font>
+            <Font name="Bookman Old Style" size="36.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="40.0" layoutY="202.0" text="1 час" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="200.0">
+         <font>
+            <Font name="Bookman Old Style" size="36.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="40.0" layoutY="254.0" text="9 часов" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="250.0">
+         <font>
+            <Font name="Bookman Old Style" size="36.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="40.0" layoutY="300.0" text="1 день" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="300.0">
+         <font>
+            <Font name="Bookman Old Style" size="36.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="40.0" layoutY="356.0" text="2 дня" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="350.0">
+         <font>
+            <Font name="Bookman Old Style" size="36.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="40.0" layoutY="410.0" text="6 дней" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="400.0">
+         <font>
+            <Font name="Bookman Old Style" size="36.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="40.0" layoutY="467.0" text="31 день" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="450.0">
+         <font>
+            <Font name="Bookman Old Style" size="36.0" />
+         </font>
+      </Label>
+            <Label alignment="CENTER" layoutX="108.0" layoutY="68.0" text="нужно повторять слова" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0">
+               <font>
+                  <Font name="Bookman Old Style" size="24.0" />
+               </font>
+            </Label>
+   </children>
+</AnchorPane>
+   </children>
+</VBox>

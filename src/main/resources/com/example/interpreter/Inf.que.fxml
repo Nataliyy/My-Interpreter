@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="root" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.interpreter.Controllers.ControllerInf">
+    <children>
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="650.0" prefWidth="500.0" style="-fx-background-color: cef0c9;" VBox.vgrow="ALWAYS">
+            <children>
+                <Button fx:id="btnHome" layoutX="199.0" layoutY="593.0" mnemonicParsing="false" onAction="#btnHomeQueClicked" prefHeight="43.0" prefWidth="102.0" style="-fx-background-color: #8fbc8f;" text="назад" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0">
+               <font>
+                  <Font name="Bookman Old Style" size="18.0" />
+               </font></Button>
+                <Label alignment="CENTER" layoutX="6.0" layoutY="106.0" prefHeight="29.0" prefWidth="491.0" text="Кривая забывания Эббингауза" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="100.0">
+                   <font>
+                      <Font name="Bookman Old Style" size="24.0" />
+                   </font>
+                </Label>
+                <Label layoutX="24.0" layoutY="181.0" text="Кривая забывания - это кривая, которая наглядно" AnchorPane.leftAnchor="15.0">
+               <font>
+                  <Font name="Bookman Old Style" size="18.0" />
+               </font></Label>
+            <Label layoutX="15.0" layoutY="202.0" text="демонстрирует то, как долго может храниться в" AnchorPane.leftAnchor="15.0">
+               <font>
+                  <Font name="Bookman Old Style" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="16.0" layoutY="223.0" text="памяти однаджды выученная информация." AnchorPane.leftAnchor="16.0">
+               <font>
+                  <Font name="Bookman Old Style" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="24.0" layoutY="286.0" text="На кривой Эббингауза видно, какую часть от" AnchorPane.leftAnchor="15.0">
+               <font>
+                  <Font name="Bookman Old Style" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="8.0" layoutY="307.0" prefHeight="21.0" prefWidth="419.0" text=" прочитанного человек помнит через разные " AnchorPane.leftAnchor="8.0">
+               <font>
+                  <Font name="Bookman Old Style" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="13.0" layoutY="392.0" text="В первые часы объем усвоенной информации" AnchorPane.leftAnchor="13.0">
+               <font>
+                  <Font name="Bookman Old Style" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="413.0" text="быстро падает и через 10 часов" AnchorPane.leftAnchor="15.0">
+               <font>
+                  <Font name="Bookman Old Style" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="434.0" text="составляет всего 35% от изученного." AnchorPane.leftAnchor="15.0">
+               <font>
+                  <Font name="Bookman Old Style" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="328.0" prefHeight="21.0" prefWidth="209.0" text="промежутки времени." AnchorPane.leftAnchor="15.0">
+               <font>
+                  <Font name="Bookman Old Style" size="18.0" />
+               </font>
+            </Label>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

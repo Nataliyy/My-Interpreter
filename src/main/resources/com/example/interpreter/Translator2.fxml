@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="root" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.interpreter.Controllers.ControllerTr2">
+   <children>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="500.0" style="-fx-background-color: cef0c9;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea fx:id="En1" layoutX="20.0" layoutY="64.0" prefHeight="200.0" prefWidth="381.0" promptText="enter a word to translate" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+      <Label alignment="CENTER" layoutX="100.0" layoutY="22.0" text="переводчик" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="22.0">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Button fx:id="btnTrr" layoutX="400.0" layoutY="284.0" mnemonicParsing="false" onAction="#btnTrr2Clicked" prefHeight="59.0" prefWidth="83.0" style="-fx-background-color: #8fbc8f;" text="перевести" AnchorPane.leftAnchor="400.0" AnchorPane.rightAnchor="17.0" />
+      <Button fx:id="btnHome" layoutX="154.0" layoutY="659.0" mnemonicParsing="false" onAction="#btnHomeClicked" style="-fx-background-color: #8fbc8f;" text="на главный экран" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="90.0">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Button fx:id="btnAddW" layoutX="297.0" layoutY="575.0" mnemonicParsing="false" onAction="#btnAddWClicked" prefHeight="27.0" prefWidth="188.0" style="-fx-background-color: #8fbc8f;" text="добавить слово к изучаемым" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="15.0" />
+      <TextArea fx:id="Ru2" layoutX="20.0" layoutY="361.0" prefHeight="200.0" prefWidth="381.0" promptText="ваше слово на русском" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+      <Button fx:id="btnChLan" layoutX="15.0" layoutY="284.0" mnemonicParsing="false" onAction="#btnChLanClicked" prefHeight="59.0" prefWidth="83.0" style="-fx-background-color: #8fbc8f;" text="⇵">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
+   </children>
+</VBox>
